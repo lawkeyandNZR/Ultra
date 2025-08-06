@@ -11,7 +11,7 @@
   <a href="./LICENSE"><img src="https://img.shields.io/github/license/brandchitron/shipuaibot?color=blue" /></a>
   <img src="https://img.shields.io/badge/Node.js-v18+-green" />
   <img src="https://img.shields.io/badge/MongoDB-Supported-brightgreen" />
-  <img src="https://img.shields.io/badge/Built%20By-Chitron%20Bhattacharjee-blueviolet" />
+  <img src="https://img.shields.io/badge/Built%20By-Lawkey%20Marvellous-gold" />
 </p>
 
 ---
