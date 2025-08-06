@@ -21,16 +21,16 @@
   },
   
   "adminBot": [
-    "61572065567071",
-    "61550712846775"
+    "61578285070959",
+    ""
   ],
   "whiteListMode": {
     "enable": false,
-    "whiteListIds": [],
+    "whiteListIds": [61578285070959],
     "notes": "if you enable this feature, only the ids in the whiteListIds section can use the bot"
   },
-  "nickNameBot": "‌princy💝",
-  "prefix": "-",
+  "nickNameBot": "‌∞≈♦_Ultron_♦≈∞",
+  "prefix": ".",
   "database": {
     "type": "mongodb",
     "uriMongodb": "mongodb+srv://shipuaimirai:chitron%402448766@shipuaimiraibot.nwesgqa.mongodb.net/?retryWrites=true&w=majority&appName=ShiPuAiMiraiBot",
