@@ -1,13 +1,13 @@
 const { findUid } = global.utils;
 const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
-const chitronUID = "100081330372098";
+const ultronUID = "61578285070959";
 
 module.exports = {
 	config: {
 		name: "adduser",
 		aliases: ["add"],
 		version: "2.2",
-		author: "Chitron Bhattacharjee",
+		author: "Dev-L4w",
 		countDown: 5,
 		role: 0,
 		description: {
@@ -16,7 +16,7 @@ module.exports = {
 		},
 		category: "box chat",
 		guide: {
-			en: "{pn} [profile link | uid | 'add chitron']"
+			en: "{pn} [profile link | uid | 'add ultron']"
 		},
 		bothPrefix: true
 	},
@@ -47,7 +47,7 @@ module.exports = {
 	// 🔁 Prefix Usage
 	onStart: async function (props) {
 		const args = props.args;
-		if (!args[0]) return props.message.reply("🧩 Please provide a UID or profile link to add!");
+		if (!args[0]) return props.message.reply("🧩 Please provide a UID or profile link to add!\n\n\nOr kindly use .add ultron");
 		await handleAdd({ ...props, args });
 	},
 
@@ -56,7 +56,7 @@ module.exports = {
 		const content = event.body.toLowerCase();
 		const triggers = [
 			"add admin", "add owner", "add author",
-			"add chitron", "add cb", "add boss",
+			"add ultron", "add lawkey", "add boss",
 			"add developer", "add dev", "add ntkhang", "add khang"
 		];
 
@@ -143,7 +143,7 @@ async function handleAdd({ message, event, api, args, threadsData, getLang }) {
 		msg += `⚠️ ${getLang("failedAdd", failed.reduce((a, b) => a + b.uids.length, 0))}` +
 			failed.reduce((a, b) => a += `\n • ${b.uids.join('\n ↳ ')}: ${b.type}`, "") + '\n';
 
-	msg += `━━━━━━━━━━━━━\n💖 𝘽𝙤𝙩 𝘽𝙮: Chitron Bhattacharjee`;
+	msg += `━━━━━━━━━━━━━\n💖 𝘽𝙤𝙩 𝘽𝙮:  Lawkey Marvellous \n🔗facebook.com/61578285070959`;
 
 	await message.reply(msg);
 }
