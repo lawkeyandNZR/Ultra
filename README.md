@@ -1,10 +1,10 @@
 
 <h1 align="center">
-  🧠✨ ShiPu AI — Cyberpunk Messenger Bot
+  🧠✨ Lawkey AI — Ultrons Messenger Bot
 </h1>
 
 <p align="center">
-  <img src="https://media.tenor.com/VWl-ZPKT0LQAAAAC/cyberpunk-robot.gif" width="100%" alt="ShiPu AI Banner" />
+  <img src="https://media.tenor.com/VWl-ZPKT0LQAAAAC/cyberpunk-robot.gif" width="100%" alt="Lawkey AI Banner" />
 </p>
 
 <p align="center">
@@ -16,14 +16,14 @@
 
 ---
 
-> 🧩 **ShiPu AI** is a futuristic, modular, and highly customized Messenger automation + chatbot system based on NTkhang's GoatBot V2 — but **rewritten**, **refactored**, and **reborn** with AI brains, cyberpunk visuals, and MongoDB support.
+> 🧩 **Lawkey AI** is a futuristic, modular, and highly customized Messenger automation + chatbot system based on NTkhang's GoatBot V2 — but **rewritten**, **refactored**, and **reborn** with AI brains, Ultronite visuals, and MongoDB support.""Heres why you would want it 😜"
 
 ---
 
 ## ⚠️ Disclaimer
 
 > This is **not the official version** of GoatBot by NTkhang.  
-> It is a **heavily modified** fork maintained independently by **Chitron Bhattacharjee**, with deep changes to command logic, memory system, UI/UX, and AI functionality.  
+> It is a **heavily modified** fork maintained independently by **Lawkey Marvellous**, with deep changes to command logic, memory system, UI/UX, and AI functionality.  
 > All credits to the original GoatBot base go to [NTkhang](https://github.com/ntkhang03/goatbot-v2).
 
 ---
@@ -55,8 +55,8 @@
 ## 🚀 Quick Start
 
 ```bash
-git clone https://github.com/brandchitron/shipuaibot.git
-cd shipuaibot
+git clone https://github.com/Law-k3y/ultra.git
+cd ultra
 npm install
 ```
 
@@ -81,8 +81,8 @@ node index.js
 
 - 🤖 AI Chatbot (with permanent memory + fallback logic)
 - 🗣️ Bothprefix/no-prefix command detection
-- 🧩 120+ modular commands (rank, giftall, shipu2, spy, post, setrank, job, etc.)
-- 🧍 Session-based AI Chat (`shipu2`)
+- 🧩 120+ modular commands (rank, giftall, ultron2, spy, post, setrank, job, etc.)
+- 🧍 Session-based AI Chat (`ultron2`)
 - 📁 MongoDB integration (for memory, sessions, balance, etc.)
 - 📸 Canvas, avatar, fakechat, sticker, image generation
 - 💸 Currency system (bal, giftall, setexp, etc.)
@@ -111,16 +111,16 @@ node index.js
 
 > 1-Click to deploy on Render.com (supports free tier)
 
-[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/brandchitron/shipuaibot)
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/Law-k3y/ultra)
 
 ---
 
 ## 👨‍💻 Maintainer
 
-**👤 Chitron Bhattacharjee**  
-🔗 [Facebook Profile](https://facebook.com/adirexcb)  
-📧 chitronbhattacharjee@gmail.com  
-🌐 [My Dev Commands Collection (coming soon)](https://github.com/brandchitron)
+**👤 Lawkey Marvellous**  
+🔗 [Facebook Profile](https://facebook.com/61578285070959)  
+📧 lawkeymarvellous@gmail.com  
+🌐 [My Dev Commands Collection (coming soon)](https://github.com/Dev-L4w)
 
 ---
 
@@ -129,9 +129,9 @@ node index.js
 | Source | Credit |
 |--------|--------|
 | 🐐 Base Bot | [GoatBot by NTkhang](https://github.com/ntkhang03/goatbot-v2) |
-| ✨ Fork + Refactor | Chitron Bhattacharjee |
+| ✨ Fork + Refactor | Lawkey Marvellous |
 | 🎨 Style + Canvas | Custom rewritten by Chitron |
-| 🤖 AI Brain | OpenAI, Cohere, Shipu APIs |
+| 🤖 AI Brain | OpenAI, Cohere, ultron APIs |
 
 ---
 
@@ -153,5 +153,5 @@ Pull requests, bug reports, and ideas are welcome!
 
 ---
 
-> 💖 **ShiPu AI: More than a bot. A stylish, cyberpunk AI friend.**  
-> — _Chitron Bhattacharjee_
+> 💖 **Ultron AI: More than a bot. A stylish, Ultranated cyber AI friend.**  
+> — _Lawkey Marvellous_
