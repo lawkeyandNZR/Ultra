@@ -13,16 +13,16 @@ const apiUrl = "https://shipu-ai.onrender.com/api.php?action=";
 module.exports = {
  config: {
  name: "shipu",
- aliases: ["princy", "ai", "jerry", "ncs", "kipe"],
+ aliases: ["law", "ai", "lawkey", "kyle", "ultron"],
  version: "1.2",
- author: "Chitron Bhattacharjee",
+ author: "DevL4w",
  countDown: 1,
  role: 0,
  shortDescription: {
- en: "Talk with princy ai (with memory and personality)"
+ en: "Talk with ultron ai (with memory and personality)"
  },
  longDescription: {
- en: "Chat with princy-powered NCS pro AI. Continues chat with memory, supports personality modes."
+ en: "Chat with ultra-powered ultronite AI. Continues chat with memory, supports personality modes."
  },
  category: "ai",
  guide: {
@@ -34,7 +34,7 @@ module.exports = {
  const uid = event.senderID;
  const input = args.join(" ");
 
- if (!input) return message.reply("📩 | Please provide a message or reply to a princy message.");
+ if (!input) return message.reply("📩 | Please provide a message or reply to a ultron's message.");
 
  // Personality setter
  if (args[0]?.toLowerCase() === "setpersonality") {
@@ -57,17 +57,17 @@ module.exports = {
  const body = event.body?.toLowerCase();
  if (!body) return;
 
- const prefixes = ["shipu", "lume", "lumyai", "lum", "ai", "shpu"];
+ const prefixes = ["shipu", "law", "lawkey", "ultron", "ai", "kyle"];
  const matched = prefixes.find(p => body.startsWith(p));
  if (!matched) return;
 
  const content = body.slice(matched.length).trim();
  if (!content) {
  const prompts = [
- "👋 হ্যাঁ বলো, শুনছি!",
- "🤖 তুমি কি জানতে চাও আমার সম্পর্কে?",
- "🧠 লিখো কিছু, আমি ভাবছি...",
- ""
+ "👋 Hello Ultron's here, How may I help you!",
+ "🤖 What would you like to request?",
+ "🧠 Ultronite is thinking, please be patient...",
+ "🚶 Im fed up with this AI stuff, Lawkey is out."
  ];
  const randomPrompt = prompts[Math.floor(Math.random() * prompts.length)];
  return api.sendMessage(randomPrompt, event.threadID, (err, info) => {
@@ -109,7 +109,7 @@ async function handleConversation(api, event, userInput) {
  const { botReply, status, author } = res.data;
 
  if (status !== "success") {
- return api.sendMessage("❌ | ShiPu couldn't reply. Try again later.", event.threadID, event.messageID);
+ return api.sendMessage("❌ | Ultron couldn't reply. Try again later.", event.threadID, event.messageID);
  }
 
  // Save new memory
@@ -120,7 +120,7 @@ async function handleConversation(api, event, userInput) {
  console.log("⚠️ Failed to save memory.");
  }
 
- const styled = `╭────────────╮\n ▄ 🧠 NCS 𝗔𝗜 𝘀𝗮𝗶𝗱:\n▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄\n\n\n${botReply}\n\n──────────────\n▄ 📩 𝗬𝗼𝘂: ${userInput}\n▄▄▄▄▄▄▄▄▄▄▄▄▄\n╔══════════╗\n║ 👤𝗠𝗼𝗱𝗲: ${personality}\n║ 🖊️𝗔𝘂𝘁𝗵𝗼𝗿: Chitron\n║ Bhattacharjee\n╚══════════╝`;
+ const styled = `╭────────────╮\n ▄ 🧠 Lawkey 𝗔𝗜 𝘀𝗮𝗶𝗱:\n▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄\n\n\n${botReply}\n\n──────────────\n▄ 📩 𝗬𝗼𝘂: ${userInput}\n▄▄▄▄▄▄▄▄▄▄▄▄▄\n╔══════════╗\n║ 👤𝗠𝗼𝗱𝗲: ${personality}\n║ 🖊️𝗔𝘂𝘁𝗵𝗼𝗿: Lawkey\n║ Marvellous\n╚══════════╝`;
 
  api.sendMessage(styled, event.threadID, (err, info) => {
  if (!info?.messageID) return;
@@ -132,6 +132,6 @@ async function handleConversation(api, event, userInput) {
  }, event.messageID);
  } catch (err) {
  console.error(err);
- api.sendMessage("⚠️ | who are you baby only my mom ncs pro😘.", event.threadID, event.messageID);
+ api.sendMessage("⚠️ | I need time to think this through...", event.threadID, event.messageID);
  }
 }
