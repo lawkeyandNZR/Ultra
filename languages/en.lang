@@ -89,20 +89,20 @@ handlerCheckData.cantCreateThread=Groups with id '%1' cannot be written to the d
 handlerCheckData.cantCreateUser=Users with id '%1' cannot be written to the database!
 
 # bot/handler/handlerEvents.js
-handlerEvents.userBanned=You have been banned from using the bot\n» Reason: %1\n» Time: %2\n» User ID: %3
-handlerEvents.threadBanned=This group has been banned from using the bot\n» Reason: %1\n» Time: %2\n» Thread ID: %3
-handlerEvents.onlyAdminBox=This group is currently enabled only group administrators can use the bot
-handlerEvents.onlyAdminBot=❌ | Currently only bot's admin can use bot
-handlerEvents.commandNotFound=Command "%1" does not exist, type %2help to see all available commands
-handlerEvents.commandNotFound2=The command you are using does not exist, type %1help to see all available commands
-handlerEvents.commandSyntaxError=The command you are using is wrong syntax, please type %1help %2 to see the details of how to use this command
-handlerEvents.onlyAdmin=❌ | Only group administrators can use the command "%1"
-handlerEvents.onlyAdminToUseOnReply=❌ | Only group administrators can use the reply function of the command "%1"
-handlerEvents.onlyAdminToUseOnReaction=❌ | Only group administrators can use the reaction function of the command "%1"
-handlerEvents.onlyAdminBot2=❌ | Only bot's admin can use the command "%1"
-handlerEvents.onlyAdminBot2ToUseOnReply=❌ | Only bot's admin can use the reply function of the command "%1"
-handlerEvents.onlyAdminBot2ToUseOnReaction=❌ | Only bot's admin can use the reaction function of the command "%1"
-handlerEvents.waitingForCommand=⏱ You are in the waiting time to use this command, please come back after %1s
+handlerEvents.userBanned= 𝐘𝐨𝐮 𝐡𝐚𝐯𝐞 𝐛𝐞𝐞𝐧 𝐛𝐚𝐧𝐧𝐞𝐝 𝐟𝐫𝐨𝐦 𝐮𝐬𝐢𝐧𝐠 𝐭𝐡𝐞 𝐛𝐨𝐭\n» 𝐑𝐞𝐚𝐬𝐨𝐧: %1\n» 𝐓𝐢𝐦𝐞: %2\n» 𝐔𝐬𝐞𝐫 𝐈𝐃: %3
+handlerEvents.threadBanned=𝐓𝐡𝐢𝐬 𝐠𝐫𝐨𝐮𝐩 𝐡𝐚𝐬 𝐛𝐞𝐞𝐧 𝐛𝐚𝐧𝐧𝐞𝐝 𝐟𝐫𝐨𝐦 𝐮𝐬𝐢𝐧𝐠 𝐭𝐡𝐞 𝐛𝐨𝐭\n» 𝐑𝐞𝐚𝐬𝐨𝐧: %1\n» 𝐓𝐢𝐦𝐞: %2\n» 𝐓𝐡𝐫𝐞𝐚𝐝 𝐈𝐃: %3
+handlerEvents.onlyAdminBox= 👻|𝐌𝐎𝐃𝐄 only gc admins can use bot.
+handlerEvents.onlyAdminBot=🔐 | 𝐂𝐮𝐫𝐫𝐞𝐧𝐭𝐥𝐲 𝐨𝐧𝐥𝐲 𝐛𝐨𝐭 𝐚𝐝𝐦𝐢𝐧 𝐜𝐚𝐧 𝐮𝐬𝐞 𝐛𝐨𝐭
+handlerEvents.commandNotFound= 📜|this cmd ✨%1✨ not available now, kindly type %2𝐡𝐞𝐥p to explore more cmds
+handlerEvents.commandNotFound2=💀💀ᏰᎧᏖ ᎧᏇᏁᏋᏒ 💀💀\n👽 Lawkey Marvluz\n✘.👻Github:"github.com/Law-k3y"\n"github.com/DevL4w"─シ\n══━━━━✥◈🤖🍀🤖◈✥━━━━══\n🔗ᖴᗩᑕEᗷOOK ᒪIᑎK🔗\nhttps://facebook.com/4\n══━━━━✥◈🤖🍀🤖◈✥━━━━══\n💩| ULTRON ᏰᎧᏖ:\n➣ ✘.ultronite ぐき
+handlerEvents.commandSyntaxError=📜|𝐓𝐡𝐞 𝐜𝐨𝐦𝐦𝐚𝐧𝐝 𝐲𝐨𝐮 𝐚𝐫𝐞 𝐮𝐬𝐢𝐧𝐠 𝐢𝐬 𝐰𝐫𝐨𝐧𝐠 𝐬𝐲𝐧𝐭𝐚𝐱, 𝐩𝐥𝐞𝐚𝐬𝐞 𝐭𝐲𝐩𝐞 %1𝐡𝐞𝐥𝐩 %2 𝐭𝐨 𝐬𝐞𝐞 𝐭𝐡𝐞 𝐝𝐞𝐭𝐚𝐢𝐥𝐬 𝐨𝐟 𝐡𝐨𝐰 𝐭𝐨 𝐮𝐬𝐞 𝐭𝐡𝐢𝐬 𝐜𝐨𝐦𝐦𝐚𝐧𝐝
+handlerEvents.onlyAdmin=🙅 | Group Admin only can access this cmd get tf out bro\n\n Create your own group and feel elevated 🌿%1🌿
+handlerEvents.onlyAdminToUseOnReply=🧏 | Group Admin only can access this cmd get tf out bro\n\n Create your own group and feel elevated 💦%1💦
+handlerEvents.onlyAdminToUseOnReaction=💁| unknown authorisation\nCmd is only for Lawkey's moderator ✨%1✨
+handlerEvents.onlyAdminBot2=🧑‍🍼 | This cmd is restricted to users\nSend your facebook detail to Lawkey Marvluz now to access the cmd and have a great chance in becoming my Administrator🍂%1🍂
+handlerEvents.onlyAdminBot2ToUseOnReply=🙇| Only Lawkey Marvellous can reply to this function 🍀%1🍀
+handlerEvents.onlyAdminBot2ToUseOnReaction=🧑‍🦯 | Only Lawkey Marvellous can react to this 🍂%1🍂
+handlerEvents.waitingForCommand= 🙍..Bro you are getting too fast, rest for 🎶 %1 𝐬𝐞𝐜 🎶 and use the cmd again.
 handlerEvents.errorOccurred=❌ [ %1 ]\nAn error occurred at command "%2"\n\n%3
 handlerEvents.errorOccurred2=❌ [ %1 ]\nAn error occurred at command onChat in command "%2"\n\n%3
 handlerEvents.errorOccurred3=❌ [ %1 ]\nAn error occurred when executing onReply at command "%2"\n\n%3
@@ -125,7 +125,7 @@ indexController.connectMySQLSuccess=Successfully connected SQLITE database!
 indexController.connectMySQLError=An error occurred while connecting to a SQLITE database:
 
 # updater.js
-updater.updateTooFast=Please wait at least 5 minutes after the latest commit to update without error, %1 minutes %2 seconds left
+updater.updateTooFast=Please wait at least 5 minutes after the latest commit to update without error, %1 minutes %2econds left
 updater.latestVersion=You are using the latest version
 updater.cantFindVersion=You are using an undefined version (%1), please check your package.json file again
 updater.newVersions=There are %1 new versions to update, starting to update...
