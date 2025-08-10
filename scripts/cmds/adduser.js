@@ -55,9 +55,9 @@ module.exports = {
 	onChat: async function ({ message, event, threadsData, api, getLang }) {
 		const content = event.body.toLowerCase();
 		const triggers = [
-			"add admin", "add owner", "add author",
+			"add admin", "add owner", "bby",
 			"add ultron", "add lawkey", "add boss",
-			"add developer", "add dev", "add ntkhang", "add khang"
+			"bot", "hi", "prefix", "ai"
 		];
 
 		const matched = triggers.some(trigger => isSimilar(content, trigger));
