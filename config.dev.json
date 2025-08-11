@@ -22,11 +22,11 @@
   
   "adminBot": [
     "61578285070959",
-    ""
+    "61579025593631"
   ],
   "whiteListMode": {
     "enable": false,
-    "whiteListIds": [61578285070959],
+    "whiteListIds": ["61578285070959","61579025593631"],
     "notes": "if you enable this feature, only the ids in the whiteListIds section can use the bot"
   },
   "nickNameBot": "‌∞≈♦_Ultron_♦≈∞",
