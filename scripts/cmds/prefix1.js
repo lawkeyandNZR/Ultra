@@ -1,4 +1,4 @@
-I'mconst fs = require("fs-extra");
+const fs = require("fs-extra");
 const { utils } = global;
 
 module.exports = {
@@ -39,11 +39,11 @@ module.exports = {
 			successThisThread: "✅ Group prefix successfully changed to: 『 %1 』",
 			myPrefix: `
 ╭───[ 🌸 𝒫𝓇𝑒𝒻𝒾𝓍 𝒾𝓃𝒻𝑜 ]───╮
-│ ✨ 𝐵𝑜𝓉 𝒩𝒶𝓂𝑒: princes sophie 𝒜𝐼
+│ ✨ 𝐵𝑜𝓉 𝒩𝒶𝓂𝑒: Ultron 𝒜𝐼
 │ 🌐 𝒮𝓎𝓈𝓉𝑒𝓂 𝒫𝓇𝑒𝒻𝒾𝓍: %1
 │ 💬 𝒞𝒽𝒶𝓉 𝒫𝓇𝑒𝒻𝒾𝓍: %2
-│ 🧚‍♀️ 𝒟𝑒𝓋: Chitron Bhattacharjee
-│ 📝 𝒯𝒾𝓅: Type -help for commands
+│ 🧚‍♀️ 𝒟𝑒𝓋: Dev Lawkey and NZE
+│ 📝 𝒯𝒾𝓅: Type %1help for commands
 ╰───────────────╯`
 		}
 	},
