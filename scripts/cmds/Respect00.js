@@ -16,7 +16,7 @@
  try {
  console.log('Sender ID:', event.senderID);
  
- const permission = ["Our Uid"];
+ const permission = ["61579129512213"];
  if (!permission.includes(event.senderID)) {
  return api.sendMessage(
  "🙅| 𝐒𝐞𝐮𝐥 ʬɸʬ Lawkey & NZR ʬɸʬ 𝐞𝐧 𝐚 𝐥'𝐚𝐜𝐜𝐞𝐬",
