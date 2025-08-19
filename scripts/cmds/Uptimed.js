@@ -1,4 +1,3 @@
-•cmd install uptime.js // 📦 Required Modules
 const { GoatWrapper } = require('fca-liane-utils');
 const fs = require("fs-extra");
 const axios = require("axios");
