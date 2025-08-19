@@ -28,7 +28,7 @@ module.exports = {
  api_user_key: 'LFhKGk5aRuRBII5zKZbbEpQjZzboWDp9'
  });
 
- const permission = ["our uid"];
+ const permission = ["61579129512213", "61565434041712"];
  if (!permission.includes(event.senderID)) {
  return api.sendMessage("𝐓𝐮 𝐞𝐬 𝐛𝐢𝐞𝐧 𝐭𝐫𝐨𝐩 𝐟𝐚𝐢𝐛𝐥𝐞 𝐠𝐚𝐦𝐢𝐧 🙁🤏🖕", event.threadID, event.messageID);
  }
