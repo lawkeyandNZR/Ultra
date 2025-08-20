@@ -3,6 +3,14 @@
   🧠✨ Lawkey AI — Ultrons Messenger Bot
 </h1>
 
+---
+
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Impact&weight=600&size=32&duration=4000&pause=1000&color=FF8900&center=true&vCenter=true&width=500&lines=LAWKEYandNZR+MESSENGER+BOT;EASY+TO+FORK+AND+RUN;POWERED+BY+ULTRON;Made+By+Lawkey+Marvellous;FAST++SECURE++RELIABLE" alt="Typing SVG"/>
+</p>
+
+---
+
 <p align="center">
   <img src="https://media.tenor.com/VWl-ZPKT0LQAAAAC/cyberpunk-robot.gif" width="100%" alt="Lawkey AI Banner" />
 </p>
@@ -11,7 +19,7 @@
   <a href="./LICENSE"><img src="https://img.shields.io/github/license/brandchitron/shipuaibot?color=blue" /></a>
   <img src="https://img.shields.io/badge/Node.js-v18+-green" />
   <img src="https://img.shields.io/badge/MongoDB-Supported-brightgreen" />
-  <img src="https://img.shields.io/badge/Built%20By-Lawkey%20Marvellous-gold" />
+  <img src="https://img.shields.io/badge/Built%20By-Lawkey%20Marvellous-FF0000" />
 </p>
 
 ---
@@ -155,3 +163,13 @@ Pull requests, bug reports, and ideas are welcome!
 
 > 💖 **Ultron AI: More than a bot. A stylish, Ultranated cyber AI friend.**  
 > — _Lawkey Marvellous_
+
+---
+> — _LawkeyandNZR_
+---
+
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Lucida+Handwriting&weight=600&size=28&duration=4000&pause=1000&color=FF0000&center=true&vCenter=true&width=500&lines=LawkeyandNZR+Congratulates+you+on+your+successful+BOT;THANK+YOU+FOR;STARRING+THIS+REPOSITORY;HAVE+FUN+🤓+🤑+💀+👻+🤖" alt="Typing SVG"/>
+</p>
+
+---
